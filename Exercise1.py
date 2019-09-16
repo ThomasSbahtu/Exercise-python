@@ -24,6 +24,8 @@ elif shape == "trapizoid":
     h2 = int(input("Input the height2: "))
     area = 1 / 2 * (b1 + b2) * (h1 + h2)
     print("Area= ", area)
+else:
+    print("The shape is not recognized")
 
 
 
